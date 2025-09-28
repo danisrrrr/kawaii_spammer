@@ -4,10 +4,10 @@
   "version": "1.0",
   "description": "over powered multi-threaded google form spammer.",
   "permissions": ["scripting", "activeTab"],
-  "host_permissions": ["https://docs.google.com/forms/*"],
+  "host_permissions": ["https://vote.breaktudoawards.com/vote/grupo-feminino-internacional/?fbclid=IwY2xjawNGEeVleHRuA2FlbQIxMABicmlkETFpR3BiMWd3ZEdKZFNZZklhAR7NYEmtk-woiBy7puIh2wuA36dLEMu0zIlRqklAw6WPYOsa7d36DgukTIRAfw_aem_8htrbcJIG8JNFQ0E0VNOvw"],
   "content_scripts": [
     {
-      "matches": ["https://docs.google.com/forms/*"],
+      "matches": ["https://vote.breaktudoawards.com/vote/grupo-feminino-internacional/?fbclid=IwY2xjawNGEeVleHRuA2FlbQIxMABicmlkETFpR3BiMWd3ZEdKZFNZZklhAR7NYEmtk-woiBy7puIh2wuA36dLEMu0zIlRqklAw6WPYOsa7d36DgukTIRAfw_aem_8htrbcJIG8JNFQ0E0VNOvw"],
       "js": ["content.js"],
       "run_at": "document_idle"
     }
